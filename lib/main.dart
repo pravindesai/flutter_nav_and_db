@@ -60,6 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
+        automaticallyImplyLeading: true,
         backgroundColor: Colors.blueGrey,
         title: Text(
           widget.title,
